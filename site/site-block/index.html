@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parent-child</title>
+    </head>
+    <body>
+        <style type="text/css">
+            body{
+                margin: 0;
+            }
+            .parent{
+                width: 80%;
+                background: yellow;
+                margin-left: 10%;
+                position: relative;
+            }
+            .child{
+                width: 50%;
+                height: 200px;
+                background: lightgreen;
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                left: auto;
+                top: auto;
+                z-index: 9000;
+            }
+        </style>
+        <div class="child">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at magna a ante suscipit lobortis vitae id magna. Integer quis tortor non nunc feugiat ornare in congue metus. Aliquam semper luctus maximus. Quisque sit amet rutrum lacus. Duis erat neque, egestas at dignissim sit amet, sagittis ut nibh. Nam vestibulum metus vitae malesuada sagittis. Vivamus vel dapibus ante. Sed vestibulum faucibus mollis. Aenean a pulvinar ante, non venenatis elit. Phasellus a ornare mauris, id venenatis nunc.</div>
+        <div class="parent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at magna a ante suscipit lobortis vitae id magna. Integer quis tortor non nunc feugiat ornare in congue metus. Aliquam semper luctus maximus. Quisque sit amet rutrum lacus. Duis erat neque, egestas at dignissim sit amet, sagittis ut nibh. Nam vestibulum metus vitae malesuada sagittis. Vivamus vel dapibus ante. Sed vestibulum faucibus mollis. Aenean a pulvinar ante, non venenatis elit. Phasellus a ornare mauris, id venenatis nunc.
+        </div>
+    </body>
+</html>
